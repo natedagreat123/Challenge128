@@ -1,0 +1,12 @@
+k guyz,
+fork the directory,
+write your program,
+title your program with your last name, first name then the name of the problem, then .py (python extension)
+ex: zheng_nevin_twoSpookyFourMe.py
+then submit a pull request. i will accept it.
+
+Rewards:
+twoSpookyFourMe: you will recieve a million dollars
+for the next two you really have to impress me
+spider: hi five but not respect
+factorizer: respect but not hi five

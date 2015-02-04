@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\usepackage{amsmath}
+
+\lstset{%
+	language=Python,
+	backgroundcolor=\color{black!5},
+	basicstyle=\footnotesize
+	}
+	
+%Preamble
+\author{Nevin Zheng}
+\title{twoSpookyfourMe}
+\date{February 4, 2015}
+
+\begin{document}
+
+   \begin{center}
+      \Large\textbf{twoSpookyfourMe}\\
+ 
+      \large\textit{Nevin Zheng}
+      
+   \end{center}
+   
+\begin{lstlisting}
+def function TwoSpookyFourME (int n) {
+if (n is odd && n!=1)
+TwoSpookyFourMe(3*n+1);
+else
+TwoSpookyFourMe(n/2);
+}
+\end{lstlisting}
+Provide either a proof that this terminates for all n $>$ 0 or a counter-example for a specific n.
+
+\end{document}
