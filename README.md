@@ -1,6 +1,6 @@
 # Challenge128
 128 Challenge Problems
-<<<<<<< HEAD
+
 hi guyz,
 Instructions:
 1) Fork the dir
@@ -9,5 +9,3 @@ Instructions:
 4) i will merge and grade
 
 submissions are public, but its first come first serve
-=======
->>>>>>> 50c129c6151df4c1156f782b9a763dd993836887
