@@ -1,0 +1,42 @@
+#Factorizer
+count2=0
+count3=0
+count5=0
+count7=0
+count11=0
+
+
+num=input("Enter a number to be factorized: ")
+num=eval(num)
+num0=num
+
+
+while num%2 == 0:
+    num=num/2
+    count2=count2+1
+while num%3 == 0:
+    num=num/3
+    count3=count3+1
+while num%5 == 0:
+	num=num/5
+	count5=count5+1
+while num%7 == 0:
+	num=num/7
+	count7=count7+1
+while num%11 == 0:
+    num=num/2
+    count11=count11+1
+
+else:
+	print("\n\n\n")
+	print(num0, "is equal to")
+	print("Base | Exponent")
+	print(" 2   | ",count2)
+	print("Base | Exponent")
+	print(" 3   | ",count3)
+	print("Base | Exponent")
+	print(" 5   | ",count5)
+	print("Base | Exponent")
+	print(" 7   | ",count7)
+	print("Base | Exponent")
+	print(" 11  | ",count11)
